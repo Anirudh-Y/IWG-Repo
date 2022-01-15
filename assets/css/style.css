@@ -1670,7 +1670,9 @@ section {
 }
 
 @media screen and (max-width:750px){
+  .roundimg{
   margin-right: 100px;
+  }
 }
 
 .latestEventsAnchor > a{

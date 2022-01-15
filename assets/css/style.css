@@ -1657,3 +1657,67 @@ section {
     display: block;
   }
 }
+
+.row_event > a{
+  color: white;
+  text-decoration: underline;
+}
+
+.roundimg{
+  width: 100px;
+  border-radius: 100px;
+}
+
+.latestEventsAnchor > a{
+  color: navy;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.latestEventsAnchor > a :hover{
+  color:black;
+  text-decoration: underline;
+}
+
+@media screen and (min-width : 750px){
+  .navlinks li a:hover{
+    color: black;
+  }
+
+  #navlinkText:active{
+    color: black !important;
+  }
+}
+
+#footer .footer-top{
+  background: linear-gradient(#afd6f0, rgba(0,0,0,0.1));
+  
+}
+
+#footer .footer-top .social-links a{
+  background: black;
+}
+
+#footer .footer-top .footer-contact h3{
+  color: black;
+}
+
+#footer .footer-top .footer-contact p{
+  color: black;
+  font-size: 18px;
+}
+
+#footer .footer-top .footer-links ul a{
+  color: black;
+  font-size: 18px;
+}
+
+#footer .footer-top h4{
+  color: black;
+  font-size: 18px;
+}
+
+.bx-chevron-right{
+  color: white;
+}

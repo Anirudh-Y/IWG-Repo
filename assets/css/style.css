@@ -1640,3 +1640,20 @@ section {
   display: flex;
   flex-direction: column;
 }
+
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navContainer2{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+@media screen and (max-width:750px){
+  .navContainer2{
+    display: block;
+  }
+}

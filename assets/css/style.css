@@ -1677,7 +1677,11 @@ section {
 @media screen and (max-width:500px){
   .roundimg{
   margin-right: 100px;
-  transform: scale(0.7);
+  }
+}
+@media screen and (max-width:450px){
+  .roundimg{
+  margin-right: 150px;
   }
 }
 

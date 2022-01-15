@@ -1666,6 +1666,11 @@ section {
 .roundimg{
   width: 100px;
   border-radius: 100px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width:750px){
+  margin-right: 100px;
 }
 
 .latestEventsAnchor > a{

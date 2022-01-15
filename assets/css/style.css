@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #7C99AC;
+  background: #191919;
 }
 
 #preloader:before {
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #407be9;
+  color: black;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
@@ -1672,6 +1672,12 @@ section {
 @media screen and (max-width:750px){
   .roundimg{
   margin-right: 100px;
+  }
+}
+@media screen and (max-width:393px){
+  .roundimg{
+  margin-right: 100px;
+  transform: scale(0.7);
   }
 }
 
